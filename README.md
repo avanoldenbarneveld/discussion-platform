@@ -1,16 +1,35 @@
-# React + Vite
+# La Portada
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+La Portada es un experimento de producto para construir una comunidad de noticias y debate para la comunidad tecnológica española.
 
-Currently, two official plugins are available:
+La idea está entre Lobsters y Reddit, pero llevada al contexto local y con una obsesión clara por la calidad de la conversación. No pretende ser otra red social genérica, ni un clon de LinkedIn, ni una colección de subcomunidades. La apuesta es más simple: una sola portada, buenas publicaciones, comentarios con criterio y crecimiento por invitación.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Qué estamos intentando hacer
 
-## React Compiler
+Queremos construir un sitio al que merezca la pena entrar incluso cuando no conoces a nadie dentro. Un sitio donde la portada tenga nivel, donde los enlaces no se compartan sin contexto y donde la conversación añada valor en lugar de enterrarlo.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+El foco inicial es este:
 
-## Expanding the ESLint configuration
+- una sola portada principal
+- publicaciones con enlace y contexto opcional
+- comentarios anidados
+- karma como señal de reputación
+- acceso por invitación
+- moderación orientada a mantener la calidad
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Qué no estamos intentando hacer
+
+De momento, no queremos construir:
+
+- una red de subreddits
+- un clon de Reddit en español
+- una capa social tipo LinkedIn
+- una app llena de features desde el día uno
+
+La idea es empezar con un producto estrecho, entendible y con una identidad clara.
+
+## Estado del proyecto
+
+Ahora mismo este repositorio está en una fase muy temprana. La idea todavía se está aterrizando paso a paso, con cambios pequeños y revisables.
+
+Si quieres entender mejor la dirección del producto, el documento más útil es [PRODUCT_SPEC.md](./PRODUCT_SPEC.md).
