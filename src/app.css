@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f6f3ee;
+  color: #1f1c18;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px 56px;
+}
+
+.app h1 {
+  margin: 0 0 12px;
+  font-size: 2.5rem;
+  line-height: 1.05;
+}
+
+.app-intro {
+  margin: 0 0 12px;
+  color: #3f3932;
+  line-height: 1.6;
+}
+
+.post-list {
+  margin-top: 32px;
+}
+
+.post-list h2 {
+  margin: 0 0 20px;
+  font-size: 1.1rem;
+}
+
+.post-item + .post-item {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #ddd4c9;
+}
+
+.post-title {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+
+.post-context {
+  margin: 10px 0 0;
+  color: #4d463e;
+  line-height: 1.6;
+}
+
+.post-meta {
+  margin: 10px 0 0;
+  color: #746b61;
+  font-size: 0.95rem;
+}
