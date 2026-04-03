@@ -1,0 +1,25 @@
+.post-page {
+  margin-top: 24px;
+}
+
+.post-page-title {
+  margin: 0;
+  font-size: 1.75rem;
+  line-height: 1.15;
+}
+
+.comments-placeholder {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid #ddd4c9;
+}
+
+.comments-placeholder h2 {
+  margin: 0 0 12px;
+  font-size: 1.1rem;
+}
+
+.comments-placeholder p {
+  margin: 0;
+  color: #4d463e;
+}

@@ -1,11 +1,13 @@
 import './app.css'
-import { Route, Routes } from 'react-router-dom'
+import { Link, Route, Routes } from 'react-router-dom'
 import { posts } from './data/posts.js'
+import CommentsPage from './pages/comments-page.jsx'
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
+      <Route path="/comments/:id/:slug" element={<CommentsPage />} />
     </Routes>
   )
 }
@@ -31,7 +33,7 @@ function HomePage() {
                 {post.source}
               </a>{' '}
               · {post.author} · {post.karma} karma · {post.timeAgo} ·{' '}
-              {post.commentCount} comentarios
+              <Link to={`/comments/${post.id}/post`}>{post.commentCount} comentarios</Link>
             </p>
           </article>
         ))}
