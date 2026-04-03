@@ -13,10 +13,17 @@ function App() {
 
         {posts.map((post) => (
           <article key={post.id} className="post-item">
-            <h3 className="post-title">{post.title}</h3>
+            <h3 className="post-title">
+              <a href={post.url} target="_blank" rel="noreferrer">
+                {post.title}
+              </a>
+            </h3>
             <p className="post-meta">
-              {post.source} · {post.author} · {post.karma} karma · {post.timeAgo} ·{' '}
-              {post.commentCount} comentarios
+              <a href={post.url} target="_blank" rel="noreferrer">
+                {post.source}
+              </a>{' '}
+              · {post.author} · {post.karma} karma · {post.timeAgo} ·{' '}
+              <a href={`/p/${post.id}`}>{post.commentCount} comentarios</a>
             </p>
           </article>
         ))}
