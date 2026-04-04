@@ -33,3 +33,11 @@ La idea es empezar con un producto estrecho, entendible y con una identidad clar
 Ahora mismo este repositorio está en una fase muy temprana. La idea todavía se está aterrizando paso a paso, con cambios pequeños y revisables.
 
 Si quieres entender mejor la dirección del producto, el documento más útil es [PRODUCT_SPEC.md](./PRODUCT_SPEC.md).
+
+## Licencia
+
+El código de este proyecto está publicado bajo la licencia `AGPL-3.0-only`.
+
+La idea es que el código sea visible y reutilizable bajo copyleft, también cuando se despliega como servicio.
+
+El nombre del proyecto, su identidad visual, logos y otros elementos de marca quedan reservados salvo permiso explícito.
