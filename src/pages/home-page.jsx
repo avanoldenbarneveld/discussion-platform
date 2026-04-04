@@ -5,7 +5,9 @@ import { getPostSlug } from '../lib/postSlug.js'
 function HomePage() {
   return (
     <main className="app">
-      <h1>La Portada</h1>
+      <h1>
+        <Link to="/">La Portada</Link>
+      </h1>
       <p className="app-intro">
         Una comunidad de noticias y debate para la comunidad tecnológica española.
       </p>
