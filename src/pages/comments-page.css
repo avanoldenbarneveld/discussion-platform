@@ -33,10 +33,6 @@
   padding: 12px 0 0;
 }
 
-.comment-item--reply {
-  margin-left: 24px;
-}
-
 .comment-meta {
   margin: 0 0 6px;
   color: #746b61;
@@ -47,4 +43,14 @@
   margin: 0;
   color: #1f1c18;
   line-height: 1.55;
+}
+
+.comment-children {
+  margin-top: 12px;
+}
+
+.comment-children--nested {
+  margin-left: 24px;
+  padding-left: 16px;
+  border-left: 1px solid #ddd4c9;
 }
