@@ -7,7 +7,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/comments/:id/:slug" element={<CommentsPage />} />
+      <Route path="/comments/:publicId/:slug" element={<CommentsPage />} />
     </Routes>
   )
 }

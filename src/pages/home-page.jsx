@@ -33,7 +33,7 @@ function HomePage() {
 }
 
 function getCommentsPath(post) {
-  return `/comments/${post.id}/${getPostSlug(post.title)}`
+  return `/comments/${post.publicId}/${getPostSlug(post.title)}`
 }
 
 export default HomePage

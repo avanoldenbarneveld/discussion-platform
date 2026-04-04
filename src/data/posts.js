@@ -1,6 +1,7 @@
 export const posts = [
   {
     id: 1,
+    publicId: '3fprl8',
     title: 'Cómo construí una memoria vectorial para mi agente IA con SQLite y cero GPU',
     url: 'https://carlosazaustre.es/blog/memoria-vectorial-openclaw-tutorial',
     source: 'carlosazaustre.es',
@@ -13,6 +14,7 @@ export const posts = [
   },
   {
     id: 2,
+    publicId: '8m2xqv',
     title: 'CSS en 2026: las tres features de Chrome que eliminan JavaScript que llevas años escribiendo',
     url: 'https://jlferrete.com/blog/css-en-2026-las-tres-features-de-chrome-que-eliminan-javascript-que-llevas-anos-escribiendo/',
     source: 'jlferrete.com',
@@ -25,6 +27,7 @@ export const posts = [
   },
   {
     id: 3,
+    publicId: 'k7d4nz',
     title: 'Proxmox VE 9: la evolución del cloud privado open source',
     url: 'https://www.stackscale.com/es/blog/proxmox-ve-9-la-evolucion-del-cloud-privado-open-source/',
     source: 'stackscale.com',
@@ -37,6 +40,7 @@ export const posts = [
   },
   {
     id: 4,
+    publicId: 'q1w9ep',
     title: 'La revolución silenciosa de Proxmox VE Helper-Scripts: cómo una comunidad está transformando la administración de sistemas',
     url: 'https://www.stackscale.com/es/blog/proxmox-ve-helper-scripts/',
     source: 'stackscale.com',
@@ -49,6 +53,7 @@ export const posts = [
   },
   {
     id: 5,
+    publicId: 'v6t2mr',
     title: 'Migrar de VMware a Proxmox VE: lo que CIO y CTO preguntan de verdad',
     url: 'https://www.stackscale.com/es/blog/migrar-de-vmware-a-proxmox-ve-lo-que-cio-y-cto-preguntan-de-verdad/',
     source: 'stackscale.com',
@@ -61,6 +66,7 @@ export const posts = [
   },
   {
     id: 6,
+    publicId: 'n4c8yb',
     title: 'Datalake: una nueva forma de análisis de datos',
     url: 'https://www.oscarblancarteblog.com/2021/05/13/datalake-una-nueva-forma-de-analisis-de-datos/',
     source: 'oscarblancarteblog.com',
@@ -73,6 +79,7 @@ export const posts = [
   },
   {
     id: 7,
+    publicId: 'h2k7sa',
     title: '¿Qué son y para qué sirven los microservicios?',
     url: 'https://juanjoblog.com/que-son-y-para-que-sirven-los-microservicios/',
     source: 'juanjoblog.com',
@@ -85,6 +92,7 @@ export const posts = [
   },
   {
     id: 8,
+    publicId: 'r9m3lx',
     title: 'Desmitificando la arquitectura hexagonal',
     url: 'https://www.paradigmadigital.com/dev/desmitificando-la-arquitectura-hexagonal/',
     source: 'paradigmadigital.com',
@@ -97,6 +105,7 @@ export const posts = [
   },
   {
     id: 9,
+    publicId: 'p5z1qc',
     title: 'Apache APISIX: el API gateway cloud-native de alto rendimiento',
     url: 'https://chakray.com/es/apache-apisix-el-api-gateway-cloud-native-de-alto-rendimiento/',
     source: 'chakray.com',
@@ -109,6 +118,7 @@ export const posts = [
   },
   {
     id: 10,
+    publicId: 'y8n4bt',
     title: 'Arquitectura hexagonal: innovando en el diseño de software',
     url: 'https://www.santanderopenacademy.com/es/blog/arquitectura-hexagonal.html',
     source: 'santanderopenacademy.com',

@@ -4,8 +4,8 @@ import { comments } from '../data/comments.js'
 import { posts } from '../data/posts.js'
 
 function CommentsPage() {
-  const { id } = useParams()
-  const post = posts.find((item) => String(item.id) === id)
+  const { publicId } = useParams()
+  const post = posts.find((item) => item.publicId === publicId)
   const postComments = comments.filter((item) => item.postId === post?.id)
   const commentsByParent = groupCommentsByParent(postComments)
 
