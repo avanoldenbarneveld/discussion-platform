@@ -1,5 +1,12 @@
 # Current focus and backlog
 
+## Related documents
+
+- [README](../README.md)
+- [product spec](../PRODUCT_SPEC.md)
+- [project operating system](./project-operating-system.md)
+- [decision log](./decision-log.md)
+
 ## Purpose
 
 This document tracks what deserves attention now, what is likely to come next, and what can wait.

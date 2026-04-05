@@ -4,6 +4,13 @@
 
 This document explains how the project is run.
 
+Related documents:
+
+- [README](../README.md)
+- [product spec](../PRODUCT_SPEC.md)
+- [backlog](./backlog.md)
+- [decision log](./decision-log.md)
+
 It exists to reduce improvisation, make priorities visible, and keep product decisions, active work, and process rules easy to follow.
 
 This is not an aspirational process document. It describes the minimum real working system for the project as it exists today.
@@ -28,8 +35,8 @@ That matters because, at this stage, small focused pieces of work are more usefu
 
 Product direction lives mainly in:
 
-- `README.md`
-- `PRODUCT_SPEC.md`
+- [README](../README.md)
+- [PRODUCT_SPEC.md](../PRODUCT_SPEC.md)
 
 ### Process
 

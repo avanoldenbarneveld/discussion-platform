@@ -28,11 +28,24 @@ De momento, no queremos construir:
 
 La idea es empezar con un producto estrecho, entendible y con una identidad clara.
 
+## Documentos clave
+
+Si quieres entender cómo está pensado el proyecto, estos son los documentos que importan:
+
+- [PRODUCT_SPEC.md](./PRODUCT_SPEC.md)
+  Explica el MVP: qué estamos construyendo, para quién, qué entra en la primera versión y qué queda fuera.
+- [docs/project-operating-system.md](./docs/project-operating-system.md)
+  Explica cómo se lleva el proyecto. Define el modelo de trabajo, cómo se prioriza y qué papel tienen el backlog y el decision log.
+- [docs/backlog.md](./docs/backlog.md)
+  Recoge el foco actual. No es un roadmap completo, sino una vista simple de `Now / Next / Later`.
+- [docs/decision-log.md](./docs/decision-log.md)
+  Guarda decisiones que merece la pena no reabrir a cada rato. Solo entran aquí las que tienen consecuencias reales si cambian.
+
 ## Estado del proyecto
 
 Ahora mismo este repositorio está en una fase muy temprana. La idea todavía se está aterrizando paso a paso, con cambios pequeños y revisables.
 
-Si quieres entender mejor la dirección del producto, el documento más útil es [PRODUCT_SPEC.md](./PRODUCT_SPEC.md).
+El frontend sigue siendo en buena parte un mock. La prioridad no es llenar el producto de pantallas, sino aclarar la estructura del MVP hasta que la primera implementación real tenga sentido.
 
 ## Licencia
 

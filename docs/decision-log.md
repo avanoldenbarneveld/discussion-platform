@@ -1,5 +1,12 @@
 # Decision log
 
+## Related documents
+
+- [README](../README.md)
+- [product spec](../PRODUCT_SPEC.md)
+- [project operating system](./project-operating-system.md)
+- [backlog](./backlog.md)
+
 ## Purpose
 
 This document records decisions that are settled enough to matter later.

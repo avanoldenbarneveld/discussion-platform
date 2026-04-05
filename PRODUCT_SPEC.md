@@ -1,5 +1,12 @@
 # Brief del MVP
 
+## Documentos relacionados
+
+- [README.md](./README.md)
+- [docs/project-operating-system.md](./docs/project-operating-system.md)
+- [docs/backlog.md](./docs/backlog.md)
+- [docs/decision-log.md](./docs/decision-log.md)
+
 ## Qué estamos construyendo
 
 Una comunidad de noticias y debate para la comunidad tecnológica española, con acceso por invitación.
