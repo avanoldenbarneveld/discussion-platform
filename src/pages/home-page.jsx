@@ -1,11 +1,12 @@
 import HomeHeader from '../components/home-header.jsx'
+import HomeSidebar from '../components/home-sidebar.jsx'
 import Story from '../components/story.jsx'
 import { posts } from '../data/posts.js'
 import { getPostSlug } from '../lib/postSlug.js'
 
 function HomePage() {
   return (
-    <main className="app">
+    <main className="app app--home">
       <div className="home-layout">
         <section className="home-feed">
           <HomeHeader />
@@ -17,7 +18,7 @@ function HomePage() {
           </section>
         </section>
 
-        <aside className="home-sidebar" aria-label="Sidebar futura" />
+        <HomeSidebar />
       </div>
     </main>
   )
