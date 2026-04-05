@@ -1,5 +1,5 @@
 import HomeHeader from '../components/home-header.jsx'
-import HomeSidebar from '../components/home-sidebar.jsx'
+import Sidebar from '../components/sidebar.jsx'
 import Story from '../components/story.jsx'
 import { posts } from '../data/posts.js'
 import { getPostSlug } from '../lib/postSlug.js'
@@ -18,7 +18,7 @@ function HomePage() {
           </section>
         </section>
 
-        <HomeSidebar />
+        <Sidebar />
       </div>
     </main>
   )

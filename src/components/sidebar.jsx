@@ -1,4 +1,4 @@
-function HomeSidebar() {
+function Sidebar() {
   return (
     <aside className="home-sidebar" aria-label="Sidebar principal">
       <section className="sidebar-block">
@@ -6,9 +6,6 @@ function HomeSidebar() {
         <p className="sidebar-copy">
           La idea es simple: una sola portada, buenos enlaces y comentarios que
           merezca la pena leer.
-        </p>
-        <p className="sidebar-copy">
-          Menos ruido, menos postureo y menos comunidades medio vacías.
         </p>
         <p className="sidebar-note">Acceso por invitación.</p>
       </section>
@@ -28,4 +25,4 @@ function HomeSidebar() {
   )
 }
 
-export default HomeSidebar
+export default Sidebar
