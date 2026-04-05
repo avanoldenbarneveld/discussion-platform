@@ -23,9 +23,24 @@ a:hover {
 }
 
 .app {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 40px 20px 56px;
+  max-width: 1120px;
+  margin: 0;
+  padding: 40px 30px 56px;
+}
+
+.home-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 720px) 280px;
+  gap: 32px;
+  align-items: start;
+}
+
+.home-feed {
+  min-width: 0;
+}
+
+.home-sidebar {
+  min-height: 1px;
 }
 
 .app h1 {
@@ -85,4 +100,14 @@ a:hover {
   margin: 10px 0 0;
   color: #746b61;
   font-size: 0.95rem;
+}
+
+@media (max-width: 960px) {
+  .home-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .home-sidebar {
+    display: none;
+  }
 }
