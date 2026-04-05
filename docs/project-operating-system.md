@@ -43,6 +43,10 @@ Important decisions should be written down in the decision log.
 
 Current and upcoming priorities should be tracked in a simple backlog.
 
+That backlog lives in:
+
+- [backlog](./backlog.md)
+
 ## Working model
 
 The project uses a light version of Shape Up.
