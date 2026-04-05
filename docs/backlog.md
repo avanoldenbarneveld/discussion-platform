@@ -20,10 +20,10 @@ Right now the project is still a mocked frontend with fake data.
 What exists in some form:
 
 - a front page
-- story links that lead to a comments page
+- post links that lead to a comments page
 - placeholder login and submit actions
 - a mocked main navigation
-- an early browsing structure for stories and comments
+- an early browsing structure for posts and comments
 
 What does not exist yet in a real way:
 
@@ -49,10 +49,10 @@ This does not mean "finish the whole frontend." It means getting the MVP surface
 - make the front page feel cleaner and easier to read
 - decide what belongs on the front page and what does not
 - clarify which core actions exist in the MVP
-- decide whether pagination belongs in the first version, and if so how
+- settle how pagination should work in the first version
 - clarify the role of comments in the main experience
 - decide how minimal profiles should be
-- think through how stories, links, and archives should behave conceptually
+- think through how posts, links, and archives should behave conceptually
 
 ### What this phase should produce
 
@@ -67,11 +67,12 @@ By the end of the current focus, the project should have:
 
 Once the mocked product surface feels coherent enough, the next step should be the first real vertical slice.
 
-That slice is probably:
+That slice is:
 
-- list stories on the front page
-- open a comments page for a story
-- support the real data structure needed for those two views
+- list posts on the front page
+- open a comments page for a post
+- support pagination
+- support the real data structure needed for those views
 
 That is a better next step than trying to build a full backend for everything at once.
 
@@ -98,6 +99,15 @@ These things matter, but they should not compete with the current focus yet:
 - ranking details beyond a basic MVP approach
 - archive behavior in more depth
 - broader navigation expansion
+
+## Pending decisions
+
+These are not blocked forever, but they are not settled yet either:
+
+- the exact invite rollout after the initial admin-led phase
+- the final rate limits for new users
+- how strict the first trust barriers should be
+- how much profile surface actually belongs in the MVP
 
 ## Current uncertainty
 

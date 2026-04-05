@@ -20,8 +20,8 @@ If a decision is obvious from the product spec, still in motion, or too small to
 ### DL-001
 
 **Date:** 2026-04-05  
-**Decision:** Project documentation is written in English.  
-**Why it matters:** The repo is public-facing, and changing this later would affect the whole documentation layer.
+**Decision:** New process documentation is written in English.  
+**Why it matters:** The repo is public-facing, but not every project-facing document is there yet. This keeps the process layer consistent without pretending the whole repo has already been normalized.
 
 ### DL-002
 
@@ -50,7 +50,7 @@ If a decision is obvious from the product spec, still in motion, or too small to
 ### DL-006
 
 **Date:** 2026-04-05  
-**Decision:** Public story URLs use random-looking public IDs rather than sequential IDs.  
+**Decision:** Public post URLs use random-looking public IDs rather than sequential IDs.  
 **Why it matters:** This separates public identity from internal IDs and avoids exposing internal post counts.
 
 ### DL-007
