@@ -53,6 +53,7 @@ This does not mean "finish the whole frontend." It means getting the MVP surface
 - clarify the role of comments in the main experience
 - decide how minimal profiles should be
 - think through how posts, links, and archives should behave conceptually
+- keep refining the core project documents until they feel tight and consistent
 
 ### What this phase should produce
 
@@ -105,9 +106,18 @@ These things matter, but they should not compete with the current focus yet:
 These are not blocked forever, but they are not settled yet either:
 
 - the exact invite rollout after the initial admin-led phase
+- the long-term invite limits once the community opens up a bit
 - the final rate limits for new users
 - how strict the first trust barriers should be
 - how much profile surface actually belongs in the MVP
+- whether collapsible comments belong in the first real version or can wait
+- how duplicate links should be handled
+- whether job posts need a distinct treatment from the start
+- how visible invite lineage should be on profiles
+- what the minimum moderation surface looks like in the MVP
+- whether the archive needs to exist as a real surface early on
+- which sidebar blocks should be global and which should be page-specific
+- whether the main domain term should be `post`, `story`, or something else
 
 ## Current uncertainty
 
