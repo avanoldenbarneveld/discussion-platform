@@ -39,6 +39,10 @@ This document defines the current working model.
 
 Important decisions should be written down in the decision log.
 
+That log lives in:
+
+- [decision log](./decision-log.md)
+
 ### Active priorities
 
 Current and upcoming priorities should be tracked in a simple backlog.
