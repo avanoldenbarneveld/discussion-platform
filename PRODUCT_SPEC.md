@@ -1,247 +1,247 @@
-# Brief del MVP
+# MVP brief
 
-## Documentos relacionados
+## Related documents
 
 - [README.md](./README.md)
 - [docs/project-operating-system.md](./docs/project-operating-system.md)
 - [docs/backlog.md](./docs/backlog.md)
 - [docs/decision-log.md](./docs/decision-log.md)
 
-## Qué estamos construyendo
+## What we are building
 
-Una comunidad de noticias y debate para la comunidad tecnológica española, con acceso por invitación.
+La Portada is an invite-only link and discussion community for the Spanish tech scene.
 
-La referencia está entre Lobsters y Reddit, pero llevada al contexto español, con más cuidado por la calidad y menos nicho que Lobsters. No se trata de montar otra red social genérica ni una copia de LinkedIn. Tiene que sentirse como un sitio al que entra gente con experiencia en tech para leer y comentar cosas que merecen conversación de verdad.
+The closest references are Lobsters and Reddit, but adapted to Spain and built with a stronger bias toward quality. The goal is not to build another generic social network or a LinkedIn clone. It should feel like a place where experienced people in tech come to read and discuss things that are actually worth their time.
 
-## Para quién es
+## Who it is for
 
-El público principal son perfiles con experiencia en tecnología:
+The main audience is people with real experience in tech:
 
-- Ingenier@s de Software
-- Ingenieros de Producto
-- Product Managers
+- software engineers
+- product engineers
+- product managers
 - CTOs
-- Fundadores Técnicos
-- Product Designers con trasfondo técnico.
+- technical founders
+- product designers with a technical background
 
-También pueden participar otros perfiles del ecosistema, pero no deberían marcar el tono del producto:
+Other people from the ecosystem can take part too, but they should not define the tone of the product:
 
-- Recruiters
-- Perfiles de Sales
-- Otros perfiles del sector Tech
+- recruiters
+- sales profiles
+- other tech-adjacent roles
 
-La referencia no es "gente interesada en tecnología". La referencia es "gente que ya está dentro del sector y tiene criterio". Ese matiz importa, porque de ahí sale el tono de la comunidad.
+The reference point is not "people interested in technology." It is "people already working in the sector who have some judgment." That distinction matters because the tone of the community comes from it.
 
-## Posicionamiento
+## Positioning
 
-Es un producto pensado, sobre todo, para España.
+This is a product built first and foremost for Spain.
 
-La interfaz y la conversación deben estar en español. El contenido enlazado puede estar en español o en inglés, siempre que resulte relevante para profesionales del sector en España y esté planteado para esa audiencia. Si obligamos a que todo esté en español, dejamos fuera parte del mejor material disponible. Si dejamos que el producto derive hacia el inglés, perdemos la identidad. La clave está en mantener ese equilibrio.
+The interface and the discussion should be in Spanish. Linked content can be in Spanish or English, as long as it is relevant to people working in tech in Spain and framed for that audience. If everything had to be in Spanish, too much of the best material would be excluded. If the product drifts into English, it loses its identity. The balance matters.
 
-No queremos construir:
+We are not trying to build:
 
-- un clon de LinkedIn
-- una comunidad global en inglés
-- un foro generalista para toda Latinoamérica
-- un sistema de subreddits
+- a LinkedIn clone
+- a global English-speaking community
+- a general forum for all of Latin America
+- a subreddit system
 
-Queremos construir una plaza pública curada para la comunidad tecnológica en España. Un sitio con criterio, con contexto y con nivel.
+What we want is a curated public square for the tech community in Spain. A place with some judgment, some context, and a clear quality bar.
 
-## Idea base del producto
+## Core product idea
 
-Al principio solo hay una portada.
+At the beginning, there is only one front page.
 
-Sin subcomunidades. Sin etiquetas. Sin secciones extrañas. Una única superficie principal donde se concentra la atención y la conversación. Si fragmentamos demasiado pronto, matamos la densidad de la comunidad y renunciamos a construir una cultura común.
+No subcommunities. No tags. No weird extra sections. One main surface where attention and discussion are concentrated. If the product gets fragmented too early, the community loses density and never really develops a shared culture.
 
-La portada debería sentirse afilada. No perfecta ni elitista en el mal sentido, pero sí claramente mejor que un feed random. La ambición es que entrar aquí se note distinto desde el primer vistazo.
+The front page should feel sharp. Not perfect, and not elitist in the worst sense, but clearly better than a random feed. People should notice the difference as soon as they land on it.
 
-## Ciclo principal
+## Core loop
 
-El ciclo del MVP es muy simple:
+The MVP loop is simple:
 
-1. Un usuario comparte un enlace.
-2. Puede añadir un texto opcional para explicar por qué importa o abrir la discusión.
-3. El resto de usuarios vota y comenta.
-4. Lo mejor gana visibilidad.
-5. La moderación mantiene el nivel.
-6. El karma acumula reputación.
-7. Las invitaciones controlan el crecimiento.
+1. A user shares a link.
+2. They can add optional text to explain why it matters or to start the discussion.
+3. Other users vote and comment.
+4. The best things rise.
+5. Moderation keeps the level up.
+6. Karma accumulates as reputation.
+7. Invites control growth.
 
-Ese es el corazón del producto. Todo lo demás, por ahora, es secundario. Si este ciclo no funciona, lo demás da igual.
+That is the heart of the product. Everything else is secondary for now. If this loop does not work, the rest does not matter.
 
-## Qué se puede publicar
+## What can be posted
 
-En el lanzamiento, el formato es:
+At launch, the format is:
 
-- `enlace + texto opcional`
+- `link + optional text`
 
-Ese texto no está para duplicar el artículo ni para hacer SEO. Está para aportar contexto, explicar por qué merece atención o empujar una discusión mejor desde el primer minuto. Queremos que quien publica aporte algo más que un enlace.
+That text is not there to duplicate the article or do SEO. It is there to add context, explain why the link matters, or push the discussion in a better direction from the start. Posting should mean contributing something, not just dropping a URL.
 
-Los posts de solo texto pueden llegar más adelante. Las imágenes no son prioridad ahora mismo.
+Text-only posts can come later. Images are not a priority right now.
 
-## Modelo básico de datos
+## Basic data model
 
-Para el MVP basta con esto:
+For the MVP, this is enough:
 
-- usuarios
-- invitaciones
-- publicaciones
-- comentarios
-- votos
+- users
+- invites
+- posts
+- comments
+- votes
 - karma
-- reportes
+- reports
 
-No hace falta más estructura al principio. Cualquier capa extra ahora mismo sería ruido.
+Nothing more is needed at the start. Extra structure at this stage would mostly be noise.
 
-## Votación y karma
+## Voting and karma
 
-El MVP sale con:
+The MVP launches with:
 
-- solo votos positivos
+- upvotes only
 
-No hay votos negativos al principio.
+There are no downvotes at first.
 
-La razón es bastante práctica: con votos positivos ya puedes hacer emerger el contenido bueno, y te ahorras parte de la toxicidad y del comportamiento reactivo que suele aparecer muy pronto cuando introduces voto negativo. Si algo no interesa, que se quede abajo. No hace falta convertir cada desacuerdo en un castigo.
+The reason is practical. Upvotes are enough to surface good content, and they avoid some of the reactive, toxic behavior that tends to appear very early once downvotes exist. If something is not interesting, it can simply stay low. Not every disagreement needs to become a punishment.
 
-El karma, de momento, solo sirve como reputación. No desbloquea nada. No hay ventajas especiales, ni privilegios, ni capas de gamificación por encima. Es solo una señal simple de que esa persona lleva tiempo participando y de que la comunidad ha respondido bien a lo que aporta.
+For now, karma is only reputation. It does not unlock anything. There are no special privileges, no extra product mechanics, and no gamified reward layer on top. It is just a simple signal that someone has been around and that the community has responded well to what they contribute.
 
-## Identidad y perfiles
+## Identity and profiles
 
-La identidad pública es el nombre de usuario.
+Public identity is username-based.
 
-No queremos presión hacia el nombre real. Si alguien quiere usarlo, perfecto, pero no debe ser la expectativa por defecto. Esto no va de construir una tarjeta de visita profesional.
+There should be no pressure toward real names. If someone wants to use one, fine, but it should not be the default expectation. This is not meant to be a professional business card.
 
-En el perfil debería verse:
+Profiles should include:
 
-- nombre de usuario
+- username
 - karma
-- biografía opcional
-- enlaces opcionales
-- quién te invitó
+- optional bio
+- optional links
+- who invited you
 
-La biografía y los enlaces son contexto, no currículum. El linaje de invitación añade cierta responsabilidad sin convertir esto en una burocracia. Queremos identidad suficiente para generar confianza, no postureo.
+Bio and links are context, not a CV. Invite lineage adds some accountability without turning the whole thing into bureaucracy. The goal is enough identity to build trust, not enough identity to encourage posturing.
 
-## Invitaciones y crecimiento
+## Invites and growth
 
-El producto crece por invitaciones.
+The product grows through invites.
 
-La propuesta de despliegue es esta:
+The rollout should look like this:
 
-1. Al principio solo invitan los admins.
-2. Cuando haya un grupo inicial sólido, algunos usuarios de confianza reciben 3 invitaciones.
-3. Más adelante eso se puede ampliar poco a poco.
+1. At first, only admins can invite.
+2. Once there is a solid initial group, selected trusted users get 3 invites each.
+3. Later, that can expand gradually.
 
-No conviene regalar invitaciones a todo el mundo desde el día uno. Antes hace falta que exista una cultura reconocible. Si no, la comunidad se diluye antes de arrancar. Primero hay que fijar el tono; luego ya se escala.
+It does not make sense to give invites to everyone from day one. First the culture needs to exist in a recognizable way. Otherwise the community gets diluted before it even starts. First the tone gets established, then growth opens up.
 
-## Permisos y límites iniciales
+## Initial permissions and limits
 
-Los usuarios invitados pueden publicar y comentar desde el primer momento.
+Invited users can post and comment from the start.
 
-Eso sí, los usuarios nuevos tienen tiempos de espera. La idea no es castigarles, sino poner una fricción razonable contra el spam y las aportaciones de bajo esfuerzo. Publicar tiene que seguir siendo fácil, pero no gratis en términos culturales.
+That said, new users should still have cooldowns. The point is not to punish them. The point is to add reasonable friction against spam and low-effort participation. Posting should stay easy, but not culturally free.
 
-Límites iniciales recomendados:
+Recommended initial limits:
 
-- 1 publicación cada 12 horas
-- 5 comentarios por hora
+- 1 post every 12 hours
+- 5 comments per hour
 
-Más adelante estos límites se pueden relajar según karma, antigüedad o confianza manual.
+Later on, these limits can relax based on karma, account age, or manual trust.
 
-## Feed y ranking
+## Feed and ranking
 
-La portada tiene un único feed principal.
+The product has one main front page feed.
 
-Opciones de ordenación:
+Sorting options:
 
 - `hot`
 - `new`
 - `top today`
 
-La ordenación por defecto debe ser `hot`.
+The default should be `hot`.
 
-`new` como vista principal mete demasiado ruido. `top today` llega demasiado tarde. `hot` es el punto razonable entre frescura y señal.
+`new` is too noisy as the main view. `top today` arrives too late. `hot` is the reasonable middle ground between freshness and signal.
 
-## Comentarios
+## Comments
 
-Los comentarios importan tanto como los enlaces.
+Comments matter as much as the links.
 
-Necesitamos:
+We need:
 
-- comentarios anidados
-- comentarios colapsables
+- threaded comments
+- collapsible comments
 
-Una parte importante del valor del producto va a estar en que el hilo de discusión merezca más la pena que el propio enlace. Si la conversación no eleva el contenido, el producto se queda a medias.
+A large part of the product's value depends on the discussion being worth reading even when the link itself is not enough. If the conversation does not elevate the content, the product only does half its job.
 
-## Moderación
+## Moderation
 
-La moderación tiene que estar orientada a la calidad.
+Moderation has to be quality-oriented.
 
-No vale con quitar spam y ya está. Si queremos que esto tenga una identidad clara, la moderación tiene que intervenir cuando el nivel baje, cuando una conversación se vuelva repetitiva o cuando el producto empiece a llenarse de contenido que, aunque técnicamente encaje, en el fondo aporta poco.
+Removing spam is not enough. If the product is going to have a clear identity, moderation has to intervene when the level drops, when conversations get repetitive, or when the site fills up with content that technically fits but does not really add much.
 
-La pregunta que debería guiar esa moderación es esta:
+The guiding question should be:
 
-> ¿Esto merece una conversación entre profesionales con experiencia?
+> Is this worth a conversation among experienced people in the field?
 
-Si la respuesta suele ser no, sobra. Mantener esa línea es una parte central del producto, no un detalle operativo.
+If the answer is usually no, it does not belong. Holding that line is a core part of the product, not an operational detail.
 
-La moderación debería optimizar por:
+Moderation should optimize for:
 
-- señal
-- relevancia
-- civilidad
-- poca repetición
-- poca basura promocional
+- signal
+- relevance
+- civility
+- low repetition
+- low promotional junk
 
-## Reportes
+## Reports
 
-Los usuarios pueden reportar:
+Users can report:
 
-- publicaciones
-- comentarios
+- posts
+- comments
 
-Los reportes van a moderación. No hace falta convertirlos en una mecánica pública.
+Reports go to moderators. They do not need to become a public mechanic.
 
-## Autopromoción y perfiles comerciales
+## Self-promotion and commercial profiles
 
-Los perfiles comerciales no están prohibidos. Los recruiters tampoco.
+Commercial profiles are not banned. Recruiters are not banned either.
 
-Lo que no queremos es comportamiento extractivo. Hay diferencia entre participar como un miembro normal de la comunidad y entrar solo a sacar rendimiento.
+What should be discouraged is extractive behavior. There is a difference between participating as a normal member of the community and showing up only to get something out of it.
 
-Regla inicial para la autopromoción:
+Initial self-promotion rule:
 
-- se permite
-- debe estar claramente indicada
-- no debe ser repetitiva
-- no debe ser spam
-- moderación puede retirarla si aporta poca señal
+- allowed
+- must be clearly disclosed
+- must not be repetitive
+- must not be spammy
+- moderators can remove it if it adds little signal
 
-No hace falta montar un sistema específico para esto en el MVP. Basta con tener la regla clara y aplicarla. Lo importante no es sofisticar la norma, sino hacerla cumplir.
+The MVP does not need a special system for this. A clear rule and consistent moderation are enough. The priority is not to make the rule elaborate. The priority is to make it real.
 
-## Empleo y contratación
+## Jobs and hiring
 
-Las publicaciones de empleo pueden existir en el MVP si son buenas y relevantes.
+Job-related posts can exist in the MVP if they are good and relevant.
 
-No hace falta separar empleo en otro producto todavía. Tampoco hace falta pensar ya en una monetización específica para eso. Si la comunidad funciona, ya habrá tiempo de construir algo alrededor. Ahora la prioridad es que el sitio tenga valor por sí mismo.
+There is no need to split hiring into a separate product yet. There is also no need to think about dedicated monetization for it yet. If the community works, there will be time to build something around that later. Right now the priority is that the site is valuable on its own.
 
-## Qué queremos que se sienta al usarlo
+## What the product should feel like
 
-Queremos que el producto se sienta como una plaza pública tech curada.
+The product should feel like a curated tech public square.
 
-No como un foro corporativo. No como un rincón ultra-nerd cerrado sobre sí mismo. No como un Reddit más.
+Not a corporate forum. Not an ultra-niche nerd enclave. Not just another Reddit clone.
 
-Tiene que haber espacio para profundidad técnica, producto, startups y noticias del sector, siempre que el nivel se mantenga alto y la conversación merezca la pena. La visión no es solo juntar gente del sector. La visión es crear un sitio al que esa gente quiera volver porque nota que aquí se habla mejor.
+There should be room for technical depth, product thinking, startups, and industry news, as long as the level stays high and the discussion is worth following. The point is not just to gather people from the sector. The point is to create a place they want to come back to because the conversation is better here.
 
-## Qué no vamos a hacer ahora
+## What we are not doing now
 
-Fuera del MVP:
+Out of scope for the MVP:
 
-- subreddits o comunidades temáticas
-- etiquetas
-- votos negativos
-- mensajes privados
-- perfiles complejos
-- publicaciones centradas en imagen
-- flujos especiales para recruiters
-- funciones desbloqueadas por karma
-- mecánicas de red social más amplias
+- subreddits or topic communities
+- tags
+- downvotes
+- private messages
+- complex profiles
+- image-first posting
+- special recruiter flows
+- karma-unlocked features
+- broader social-network mechanics
 
-El producto inicial tiene que ser estrecho y legible. Cuanto más claro sea el foco al principio, más fácil será proteger la cultura después.
+The first version needs to stay narrow and legible. The clearer the focus is at the start, the easier it becomes to protect the culture later.
