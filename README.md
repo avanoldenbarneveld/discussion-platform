@@ -1,6 +1,6 @@
-# La Portada
+# La Portada Tech
 
-La Portada es un experimento de producto para construir una comunidad de noticias y debate para la comunidad tecnológica española.
+La Portada Tech es un experimento de producto para construir una comunidad de noticias y debate para la comunidad tecnológica española.
 
 La idea está entre Lobsters y Reddit, pero llevada al contexto local y con una obsesión clara por la calidad de la conversación. No pretende ser otra red social genérica, ni un clon de LinkedIn, ni una colección de subcomunidades. La apuesta es más simple: una sola portada, buenas publicaciones, comentarios con criterio y crecimiento por invitación.
 

@@ -6,7 +6,7 @@ function HomeHeader() {
     <>
       <div className="home-header-top">
         <h1>
-          <Link to="/">La Portada</Link>
+          <Link to="/">La Portada Tech</Link>
         </h1>
         <PrimaryNav />
       </div>

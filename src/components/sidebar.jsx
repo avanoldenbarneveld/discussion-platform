@@ -2,7 +2,7 @@ function Sidebar() {
   return (
     <aside className="home-sidebar" aria-label="Sidebar principal">
       <section className="sidebar-block">
-        <h2 className="sidebar-title">Sobre La Portada</h2>
+        <h2 className="sidebar-title">Sobre La Portada Tech</h2>
         <p className="sidebar-copy">
           La idea es simple: una sola portada, buenos enlaces y comentarios que
           merezca la pena leer.

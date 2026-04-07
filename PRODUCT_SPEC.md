@@ -9,7 +9,7 @@
 
 ## What we are building
 
-La Portada is an invite-only link and discussion community for the Spanish tech scene.
+La Portada Tech is an invite-only link and discussion community for the Spanish tech scene.
 
 The closest references are Lobsters and Reddit, but adapted to Spain and built with a stronger bias toward quality. The goal is not to build another generic social network or a LinkedIn clone. It should feel like a place where experienced people in tech come to read and discuss things that are actually worth their time.
 
